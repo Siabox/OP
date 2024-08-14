@@ -53,7 +53,7 @@ var (
 		Usage: "Path to L1 genesis state dump",
 	}
 	outfileL1Flag = &cli.StringFlag{
-		Name:  "outfile.l1",
+		Name:  "outfile.l2",
 		Usage: "Path to L1 genesis output file",
 	}
 
