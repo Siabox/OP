@@ -214,7 +214,7 @@ var Subcommands = cli.Commands{
 			if err != nil {
 				return err
 			}
-			if err := rollupConfig.Check(); err != nil {
+			if err := rollupConfig.Check(); err != nill {
 				return fmt.Errorf("generated rollup config does not pass validation: %w", err)
 			}
 
