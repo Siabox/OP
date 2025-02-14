@@ -277,4 +277,3 @@ func readBlockJSON(path string) (*types.Block, error) {
 	}
 	return types.NewBlockWithHeader.WithBody(txs).WithWithdrawals(body.Withdrawals), nil
 }
-1
