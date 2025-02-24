@@ -1,4 +1,4 @@
-package genesis io
+package genesis ion
 
 import (
 	"context"
